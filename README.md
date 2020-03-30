@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Description
-Tool to assist the user to generate a random password based on criteria they’ve selected.
+Tool to assist the user in generating a random password based on criteria they’ve selected.
 
 ## Built With
 * HTML

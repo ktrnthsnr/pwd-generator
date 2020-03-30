@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Password Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./assets/js/script.js" async></script>
+	<script>
+		window.onload = function (){
+			var generateButton = document.querySelector('#generate');
+			generateButton.addEventListener('click', function(){				
+				document.querySelector('#password').value = generate();
+			});
+		}
+	</script>	    
+</head>
+<body>
+	<div style="width:320px;margin:10% auto 0 auto;text-align:center">
+		<button id="generate">Generate</button>
+		<input id="password" type="text" placeholder="Your password...">
+  </div>
+  <!-- reference: https://randompasswordgenerator.org/javascript-password-generator.html -->
+  
+    <!--
+    <div class="wrapper">    
+        <header>
+          <h1>Password Generator Tool</h1>
+        </header> 
+        <div class="card">            
+            <div class="card-header">
+              <h2>Generate a Password</h2>
+            </div>            
+            <div class="card-body">
+              <textarea
+                readonly 
+                id="password"
+                placeholder="Your Secure Password"
+                aria-label="Generated Password"
+              ></textarea>
+            </div>
+            <div class="card-footer">
+              <button id="generate" class="btn">Generate Password</button>
+            </div>            
+          </div>
+    </div>   
+  -->
+
+</body>
+</html>

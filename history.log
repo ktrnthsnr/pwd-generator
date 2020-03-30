@@ -4,3 +4,13 @@
     4  git branch
     5  git remote -v
     6  history > history.log
+    1  git init
+    2  git commit -m "add readme and first draft html css and js"
+    3  git remote add origin git@github.com:ktrnthsnr/pwd-generator.git
+    4  git branch
+    5  git remote -v
+    6  history > history.log
+    7  git add .
+    8  git commit -m "add readme and first draft html css and js"
+    9  git push -u origin master
+   10  history >> history.log
