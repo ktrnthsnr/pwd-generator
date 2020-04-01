@@ -28,8 +28,12 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  font-family: sans-serif;
 }
 
+.dev header h1 {
+  font-family: sans-serif;
+}
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
