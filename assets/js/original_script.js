@@ -3,6 +3,7 @@
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -16,15 +17,18 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// -- compare to item from web..-----------------------------------------------
+// -- compare to ..-----------------------------------------------
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+
 // Write password to the #password input
 function writePassword() {
   generatePassword();
   var passwordText = document.querySelector("#password");
+
   // join all values
   passwordText.value = passwordChars.join('');
 }
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
